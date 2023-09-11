@@ -8,6 +8,7 @@
 2. Após a criação do arquivo .py disponível nesse repositório na pasta "backend", foi gerado uma ```Lambda function``` na AWS integrada com a estrutura de ```API Gateway``` juntamente ao ```DynamoDB``` como banco de dados. 
 
 **Exemplo de rotas sendo chamadas na API Gateway da AWS conectado na Lamda Function:**
+
 ![rotas](https://github.com/MiMghtt/apply_for_jobs/assets/113615260/3625de34-6521-4d79-bcc8-6bf71d78a462)
 
 ### Frontend
