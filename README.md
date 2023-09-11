@@ -25,11 +25,11 @@ Cria uma entrada no banco de dados (DynamoDB) com informações sobre a senha, c
 Gera uma URL que permite ao usuário visualizar a senha com base nos critérios de expiração.
 Atende aos requisitos 
 
-**1 - Usuário irá inserir uma senha ou solicitar ao Sistema para gerar senha aleatória baseada em políticas de complexidade (tipo de caracteres, números, letras, tamanho, etc);**
+>1 - Usuário irá inserir uma senha ou solicitar ao Sistema para gerar senha aleatória baseada em políticas de complexidade (tipo de caracteres, números, letras, tamanho, etc);
 
-**2 - Usuário irá especificar quantas vezes a senha gerada poderá ser vista e qual o tempo que a senha ficará válida;**
+>2 - Usuário irá especificar quantas vezes a senha gerada poderá ser vista e qual o tempo que a senha ficará válida;
 
-**3 - O sistema irá gerar uma URL que dá acesso a visualização da senha, baseando-se nos critérios do item 02** 
+>3 - O sistema irá gerar uma URL que dá acesso a visualização da senha, baseando-se nos critérios do item 02 
 
 pois permite ao usuário criar senhas, especificar visualizações e tempo de expiração, e gera URLs para visualização.
 
@@ -39,11 +39,11 @@ Esta função é usada para obter uma senha do banco de dados com base no ID da 
 Verifica se a senha ainda está disponível com base nas visualizações e no tempo de expiração.
 Atende aos requisitos
 
-**1 - Usuário irá inserir uma senha ou solicitar ao Sistema para gerar senha aleatória baseada em políticas de complexidade (tipo de caracteres, números, letras, tamanho, etc);**
+>1 - Usuário irá inserir uma senha ou solicitar ao Sistema para gerar senha aleatória baseada em políticas de complexidade (tipo de caracteres, números, letras, tamanho, etc);
 
-**2 - Usuário irá especificar quantas vezes a senha gerada poderá ser vista e qual o tempo que a senha ficará válida;**
+>2 - Usuário irá especificar quantas vezes a senha gerada poderá ser vista e qual o tempo que a senha ficará válida;
 
-**4 - Após atingir a quantidade de visualizações ou o tempo disponível, o sistema bloqueia/elimina a visualização da senha (expirado). A senha não deve ser armazenada após sua expiração**
+>4 - Após atingir a quantidade de visualizações ou o tempo disponível, o sistema bloqueia/elimina a visualização da senha (expirado). A senha não deve ser armazenada após sua expiração
 
 pois permite a recuperação da senha, verifica se a senha é válida com base nas visualizações e no tempo de expiração e impede o acesso após a expiração.
 
@@ -55,9 +55,9 @@ Se a senha estiver disponível, atualiza o número de visualizações restantes 
 Se a senha não estiver disponível, retorna um erro.
 Atende aos requisitos 
 
-**2 - Usuário irá especificar quantas vezes a senha gerada poderá ser vista e qual o tempo que a senha ficará válida;**
+>2 - Usuário irá especificar quantas vezes a senha gerada poderá ser vista e qual o tempo que a senha ficará válida;
 
-**4 - Após atingir a quantidade de visualizações ou o tempo disponível, o sistema bloqueia/elimina a visualização da senha (expirado). A senha não deve ser armazenada após sua expiração**
+>4 - Após atingir a quantidade de visualizações ou o tempo disponível, o sistema bloqueia/elimina a visualização da senha (expirado). A senha não deve ser armazenada após sua expiração
 
 pois permite que o usuário visualize senhas com base nas visualizações restantes e bloqueia o acesso após a expiração.
 
