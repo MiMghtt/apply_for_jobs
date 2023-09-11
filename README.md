@@ -13,7 +13,7 @@
 Esta função gera uma senha aleatória com base na complexidade especificada. Ela usa caracteres maiúsculos e dígitos e cria uma senha de 12 caracteres.
 Atende ao requisito 
 
-**1 - Usuário irá inserir uma senha ou solicitar ao Sistema para gerar senha aleatória baseada em políticas de complexidade (tipo de caracteres, números, letras, tamanho, etc);**
+>1 - Usuário irá inserir uma senha ou solicitar ao Sistema para gerar senha aleatória baseada em políticas de complexidade (tipo de caracteres, números, letras, tamanho, etc);
 
 pois gera senhas aleatórias com base na complexidade. 
 
